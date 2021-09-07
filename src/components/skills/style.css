@@ -1,0 +1,166 @@
+.skills-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    transition: ease-in-out all 0.5s;
+    background-color: #EBEDF1;
+
+}
+
+.skills-heading {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #07395c;
+    margin-bottom: 0px;
+ }
+ 
+ .skills-para {
+     font-size: 16px;
+     font-weight: 400;
+     color: #636e72;
+     font-family: 'Roboto', sans-serif;
+     margin-top: 24px;
+     width: 60%;
+     text-align: center;
+  }
+
+  .skills-heading span {
+    color: #df3940;
+}
+
+.skills-row {
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.skills-header {
+  margin: 0px 24px;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  color: #636e72;
+  position: relative;
+  cursor: pointer;
+}
+
+.skills-header-a {
+  margin: 0px 24px;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  color: #07395c;
+  position: relative;
+  cursor: pointer;
+}
+
+.skills-header-a:before {
+  content: "~~~~~~~~~~~";
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Times New Roman, Serif;
+  color: #07395c;
+  width: 100%;
+  position: absolute;
+  top: 14px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.skills-top-row h3 {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.skills-top-row h4 {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #636e72;
+  text-align: center;
+}
+
+.skills-top-row .skill-up {
+  background-image: url('../../assets/up-chevron.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-left: auto;
+  cursor: pointer;
+  transition: ease-in-out all 0.5s;
+}
+
+.skills-top-row .skill-down {
+  background-image: url('../../assets/down-chevron.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-left: auto;
+  cursor: pointer;
+  transition: ease-in-out all 0.5s;
+}
+
+.skills-row-des {
+  padding: 18px 18px 12px 18px;
+  transition: ease-in-out all 0.5s;
+}
+
+.skill-active {
+  border-bottom: none !important;
+  background-color: rgba(206, 214, 224,1.0);
+  transition: ease-in-out all 0.5s;
+  border-radius: 6px;  
+  padding: 30px 18px;
+}
+
+.skills-row h5 {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #636e72;
+  margin-top: 12px;
+}
+
+.skill-border {
+  height: 1px;
+  width: 100%;
+  margin-top: 6px;
+  background-color: rgba(206, 214, 224,1.0);
+  transition: width ease-in-out 0.5s;
+}
+
+.skill-hide {
+  width: 0%;
+  margin-top: 0px;
+}
+
+.skill-visible {
+  width: 100%;
+}
+
+
+  @media only screen and (max-width: 576px) {
+    .skills-heading {
+      font-size: 48px;
+    }
+
+    .skills-para {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 60px;
+        color:  #28638c;
+        margin-top: 24px;
+        width: 80%;
+        text-align: center;
+     }
+    
+}

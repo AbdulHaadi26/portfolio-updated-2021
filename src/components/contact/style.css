@@ -1,0 +1,229 @@
+.contact-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    transition: ease-in-out all 0.5s;
+    background-color: #EBEDF1;
+
+}
+
+.contact-heading {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #07395c;
+    margin-bottom: 0px;
+ }
+ 
+ .contact-para {
+     font-size: 16px;
+     font-weight: 400;
+     color: #636e72;
+     font-family: 'Roboto', sans-serif;
+     margin-top: 24px;
+     width: 60%;
+     text-align: center;
+     margin-bottom: 60px;
+  }
+
+  .contact-heading span {
+    color: #df3940;
+}
+
+.contact-row h1 {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.mt-6 {
+  margin-top: 36px;
+}
+
+.contact-row h4 {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.contact-row h6 {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #636e72;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.contact-form h1 {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+.contact-form h6 {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.contact-form input, .contact-form textarea {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: ease-in-out border-bottom 0.5s;
+  margin-top: 12px;
+  padding-bottom: 6px;
+  background-color: transparent;
+  resize: none;
+  max-height: 70px;
+}
+
+.contact-form select {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: ease-in-out border-bottom 0.5s;
+  margin-top: 12px;
+  padding-bottom: 6px;
+  color: rgb(100, 100, 100);
+  background-color: transparent;
+}
+
+.contact-form option {
+  color: black;
+}
+
+ .contact-form select:active, .contact-form select:focus {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: ease-in-out border-bottom 0.5s;
+}
+
+.contact-form input:active, .contact-form input:focus, .contact-form textarea:active, .contact-form textarea:focus {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: ease-in-out border-bottom 0.5s;
+}
+
+.contact-form input:active ~ .bb-contact, .contact-form input:focus ~ .bb-contact, 
+.contact-form textarea:active ~ .bb-contact, .contact-form textarea:focus ~ .bb-contact,
+.contact-form select:active ~ .bb-contact, .contact-form select:focus ~ .bb-contact {
+  width: 100%;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bb-contact {
+  width: 0px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: width ease-in-out 0.5s;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+  font-weight: 500;
+}
+
+
+.contact-form .contact-input {
+  min-height: 120px;
+}
+
+.btn-contact {
+  cursor: pointer;
+  width: fit-content;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.btn-contact h5 {
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.btn-contact img {
+  width: 26px;
+  margin-left: 12px;
+  margin-top: -8px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .contact-para {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 60px;
+      color:  #28638c;
+      margin-top: 24px;
+      width: 80%;
+      text-align: center;
+   }
+  
+}
+
+
+  @media only screen and (max-width: 576px) {
+    .contact-heading {
+      font-size: 48px;
+    }
+
+    .contact-row h1 {
+      font-size: 48px;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 4px;
+      font-weight: 400;
+      text-align: center;
+  }
+
+  
+    .contact-para {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 60px;
+        color:  #28638c;
+        margin-top: 24px;
+        width: 80%;
+        text-align: center;
+     }
+    
+}

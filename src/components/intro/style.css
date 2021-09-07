@@ -1,0 +1,126 @@
+.intro-container {
+    min-height: 40vh;
+    background-color: #07395c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.intro-container .red-d-1 {
+    background-color: #df3940;
+    height: 2px;
+    width: 80px;
+}
+
+.intro-container .red-d-2 {
+    background-color: #df3940;
+    height: 2px;
+    width: 20px;
+    margin-left: 12px;
+}
+
+.intro-heading {
+    font-size: 60px;
+    color: white;    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.intro-circle {
+    border: 6px #df3940 solid;
+    border-radius: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 36px;
+}
+
+.intro-circle h1 {
+    color: white;
+    font-size: 36px;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.intro-circle h3 {
+    color: white;
+    font-size: 16px;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+.intro-para {
+    color: #b4c7d6;
+    font-size: 16px;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 36px;
+    width: 80%;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .intro-heading{
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 1376px) {
+    .intro-heading{
+        font-size: 42px;
+    }
+
+    .intro-circle {
+        border: 6px #df3940 solid;
+        border-radius: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        padding: 32px 36px 22px 36px;
+    }
+
+    .intro-circle h1 {
+        color: white;
+        font-size: 32px;    
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+    
+    .intro-circle h3 {
+        color: white;
+        font-size: 14px;    
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .intro-container {
+        min-height: 40vh;
+        background-color: #07395c;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 30px;
+    }
+
+    .intro-heading{
+        text-align: center;
+        font-size: 42px;
+    }
+
+    .intro-para {
+        text-align: center;
+    }
+    
+}

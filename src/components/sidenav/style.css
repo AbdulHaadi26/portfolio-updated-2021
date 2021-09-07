@@ -1,0 +1,85 @@
+.bg {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    background-color: #000;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sNS {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 20%;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 12px 36px;
+    box-shadow: -10px 0px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.svg-x {
+    background-image: url('../../assets/close.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+
+
+.sidenav-header {
+    margin-top: 12px;
+    margin-bottom: 36px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #df3940;
+    font-family: 'Oswald', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sNS h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #07395c;
+    font-family: 'Oswald', sans-serif;
+    margin: 12px 0px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.sNS h6:hover {
+    color: #df3940;
+}
+
+.d-enter {
+    opacity: 0.01;
+}
+
+.d-enter.d-enter-active {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+}
+
+.d-leave {
+    opacity: 1;
+}
+
+.d-leave.d-leave-active {
+    opacity: 0.01;
+    transition: opacity 100ms ease-out;
+}

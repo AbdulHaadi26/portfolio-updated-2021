@@ -1,0 +1,53 @@
+.footer {
+    padding: 36px;
+    background-color: #07395c;
+}
+
+.sub-footer {
+    padding: 36px;
+    background-color: #df3940;
+}
+
+.sub-footer-header {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer-des-social {
+    padding: 12px;
+    margin: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1000px;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+
+.footer-des-social:hover {
+    background-color: #df3940;
+    border: 2px solid #df3940;
+    transition: ease-in-out all 0.5s;
+}
+
+.footer-des-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.sub-footer button {
+    background-color: white;
+    padding: 18px 24px;
+}
+
+.sub-footer button img {
+    width: 20px;
+}
+
+.copy-right {
+    text-align: center;
+    color: #636e72;
+    margin-top: 12px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
